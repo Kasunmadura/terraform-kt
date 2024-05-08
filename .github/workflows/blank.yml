@@ -1,6 +1,6 @@
 name: "PR Analytics"
 on:
-  pull_request:
+  workflow_dispatch:
     inputs:
       report_date_start:
         description: "Report date start(d/MM/yyyy)"
