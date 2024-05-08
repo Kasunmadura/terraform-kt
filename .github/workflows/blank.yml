@@ -13,6 +13,9 @@ on:
         required: true
 jobs:
   create-report:
+    permissions:
+      contents: read
+      issues: write
     name: "Create report"
     runs-on: ubuntu-latest
     steps:
