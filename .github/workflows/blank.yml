@@ -8,9 +8,6 @@ on:
       report_date_end:
         description: "Report date end(d/MM/yyyy)"
         required: true
-      GITHUB_TOKEN:
-        description: "Report date end(d/MM/yyyy)"
-        required: true
 jobs:
   create-report:
     permissions:
