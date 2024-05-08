@@ -4,10 +4,13 @@ on:
     inputs:
       report_date_start:
         description: "Report date start(d/MM/yyyy)"
-        required: false
+        required: true
       report_date_end:
         description: "Report date end(d/MM/yyyy)"
-        required: false
+        required: true
+      GITHUB_TOKEN:
+        description: "Report date end(d/MM/yyyy)"
+        required: true
 jobs:
   create-report:
     name: "Create report"
